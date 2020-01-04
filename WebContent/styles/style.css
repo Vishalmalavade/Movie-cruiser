@@ -1,0 +1,203 @@
+header {
+    top: 0%;
+    background-color: #004496;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    font-size: 18px;
+    height: 6%;
+}
+
+img {
+    top: 0%;
+    min-width: 3%;
+    position: fixed;
+    left: 13%;
+    height: 5%;
+}
+
+/*Logo for Movie Cruiser*/
+.movie-cruiser {
+    top: -1.9%;
+    position: fixed;
+    font-size: 30px;
+    font-family: arial;
+    font-style: calibri;
+    left: 1.3%;
+    color: #ffffff;
+}
+
+/*heading as movies and favourites*/
+.movies-heading {
+    top: 12%;
+    position: fixed;
+    font-size: 40px;
+    font-family: calibri;
+    font-style: normal;
+    left: 5.4%;
+}
+
+/*heading as Movies Link*/
+.movies {
+    top: 1.4%;
+    left: 86.7%;
+    position: fixed;
+    font-size: 20px;
+    font-family: calibri;
+    font-style: normal;
+    color: #ffffff;
+}
+
+body {
+    top: 16.5%;
+    background-color: #ffffff;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    font-size: 30px;
+}
+
+footer {
+    bottom: 0%;
+    background-color: #c4c4c4;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    font-size: 14px;
+    font-family: calibri;
+    font-style: normal;
+}
+
+table {
+    top: 26%;
+    min-width: 65%;
+    position: fixed;
+    font-size: 20px;
+    left: 5%;
+}
+
+/*table for movie-list-customer */
+.movie-list-cutsomer {
+    top: 26%;
+    min-width: 50%;
+    position: fixed;
+    left: 5%;
+    font-size: 20px;
+}
+
+/*For copy rights*/
+.copy {
+    color: #616060;
+}
+
+/* To display favorites link in heading*/
+.favorites {
+    top: 1.4%;
+    left: 95.9%;
+    position: fixed;
+    font-size: 20px;
+    font-family: calibri;
+    font-style: normal;
+    color: #ffffff
+}
+
+/* To display movie details saved successfully*/
+.movie-status {
+    top: 28%;
+    color: #06bd4b;
+    min-width: 50%;
+    position: fixed;
+    left: 5.4%;
+    font-size: 25px;
+}
+
+/*Table for customer-list*/
+.added-to-favorites {
+    top: 31%;
+    background-color: #ffffff;
+    min-width: 50%;
+    position: fixed;
+    left: 5%;
+    font-size: 20px;
+}
+
+/*To display movie added to favorites successfully heading*/
+.added {
+    position: fixed;
+    top: 20%;
+    color: #24bd4f;
+    left: 20%;
+    font-family: calibri;
+    font-style: normal;
+}
+
+/* To display favorites is empty*/
+.empty {
+    top: 26%;
+    color: #adadad;
+    position: fixed;
+    font-size: 25px;
+    left: 5.4%;
+    font-family: calibri;
+    font-style: normal;
+}
+
+/* To display no items in favorites*/
+.removed {
+    top: 19%;
+    color: #24bd4f;
+    position: fixed;
+    left: 22%;
+    font-size: 26px;
+    font-family: calibri;
+    font-style: bold;
+}
+
+/* submit button*/
+.submit {
+    background-color: #583eb5;
+    border: no-repeat;
+    font-size: 34px;
+    position: fixed;
+    font-family: calibri;
+    font-style: normal;
+    color: #ffffff;
+	padding:9px;
+	width:150px;
+}
+/* Table of favorite movies removed successfully*/
+.favorite-notification {
+    top: 28%;
+    min-width: 50%;
+    position: fixed;
+    left: 5%;
+    font-size: 20px;
+}
+
+/* Table of favorite.html*/
+.favorites-list-customer {
+    top: 25%;
+    min-width: 50%;
+    position: fixed;
+    left: 5%;
+    font-size: 20px;
+}
+
+/*To align table to ride side*/
+.right {
+    text-align: right;
+}
+
+/*To align table to center side*/
+.center {
+    text-align: center;
+}
+.checkbox{
+	height:21px;
+	width:20px;
+}
+
+
+a {
+    color: black;
+}
