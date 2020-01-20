@@ -10,14 +10,14 @@
         <img src="images\logo.png" />
         <p class="movie-cruiser">Movie Cruiser</p>
         <nav>
-            <a class="movies" href="movie-list-customer.html">Movies</a> <a class="favorites"
-                href="favorites-empty.html">Favorites</a>
+            <a class="movies" href="ShowMovieListCustomer">Movies</a> <a class="favorites"
+                href="ShowFavorite">Favorites</a>
         </nav>
     </header>
     <p class="movies-heading">Favorites</p>
     <p class="empty">
-        No items in Favorites. Use 'Add to Favorite' option in&nbsp;<a
-            href="movie-list-customer.html"><font color="#14a5ff">Movie List</font></a>
+        No items in Favorites. Use 'Add to Favorite' option in&nbsp;<a href="ShowMovieListCustomer"><font
+            color="#14a5ff">Movie List</font></a>
     </p>
 
     <footer>

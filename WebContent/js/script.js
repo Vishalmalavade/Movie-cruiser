@@ -1,7 +1,7 @@
-function valid() {
+function validateForm() {
     var title = document.forms["admin"]["title"].value;
-    var boxoffice = document.forms["admin"]["Box-office"].value;
-    var date = document.forms["admin"]["dateoflaunch"].value;
+    var boxOffice = document.forms["admin"]["boxOffice"].value;
+    var dateOfLaunch = document.forms["admin"]["dateOfLaunch"].value;
     var genre = document.forms["admin"]["genre"].value;
     var regex = (/^.*[0-9].*$/);
 
@@ -15,17 +15,17 @@ function valid() {
         return false;
     }
 
-    if (boxoffice == "") {
+    if (boxOffice == "") {
         alert("Box Office is required");
         return false;
     }
 
-    if (!boxoffice.match(regex)) {
+    if (!boxOffice.match(regex)) {
         alert("Box Office has to be a number");
         return false;
     }
 
-    if (date == "") {
+    if (dateOfLaunch == "") {
         alert("Date of Launch is required");
         return false;
     }
