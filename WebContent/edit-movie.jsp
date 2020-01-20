@@ -35,7 +35,7 @@
             </tr>
 
             <tr>
-                <td><label for="boxOffice"><b>Box-Office</b></label></td>
+                <td><label for="boxOffice"><b>Gross($)</b></label></td>
                 <td><label> <b>Active</b></label></td>
                 <td><label> <b>Date of Launch</b></label></td>
                 <td><label> <b>Genre</b></label></td>
